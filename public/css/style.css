@@ -1,35 +1,59 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     background-color: #f0f0f0;
+}
+
+/* Header and Footer styles (assuming they will have some content later) */
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+/* Main styles */
+main {
+    padding: 20px;
+}
+
+/* Hero section styles */
+.hero {
+    height: 100vh; /* Full viewport height */
+    background-image: url('background-sunset.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-text {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 20px;
+    border-radius: 8px;
 }
 
 .container {
     max-width: 800px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    margin: 0 auto; /* Center align within the viewport */
 }
-#hero {
-    background: url("../images/background-sunset.jpg") no-repeat center center/cover;
-}
-#hero-text {
-    background-color: rgba(204, 62, 92, 0.7);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 20px;
-    text-align: center;
-    color: white;
-    border-radius: 10px;
-    width: 80%;
-}
+
 h1 {
-    color: #333;
+    font-size: 3rem;
+    margin-bottom: 10px;
 }
 
 p {
-    color: #666;
+    font-size: 1.2rem;
+    color: #eee;
 }
