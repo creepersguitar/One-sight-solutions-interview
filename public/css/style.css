@@ -26,9 +26,9 @@ main {
 }
 
 /* Hero section styles */
-#hero {
+.hero {
     height: 100vh; /* Full viewport height */
-    background-image: url('../images/background-sunset.jpg');
+    background-image: url('../images/background-sunset.jpg'); /* Check the path */
     background-size: cover;
     background-position: center;
     display: flex;
@@ -38,7 +38,7 @@ main {
     color: #fff;
 }
 
-#hero-text {
+.hero-text {
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
     padding: 20px;
     border-radius: 8px;
