@@ -1,0 +1,15 @@
+{
+  "name": "one-sight-solutions-interview",
+  "version": "1.0.0",
+  "description": "This is a repo designed to showcase my knowledge of web development for a technical interview with one sight solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
